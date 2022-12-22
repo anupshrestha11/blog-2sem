@@ -50,64 +50,105 @@ body {
   opacity: 1;
 }
 
-
-
-.blog-section{
-    padding: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
+.blog-section {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.card{
-    width: 250px;
-    box-shadow: 0 0 8px #00000033;
+.card {
+  width: 250px;
+  box-shadow: 0 0 8px #00000033;
 }
 
-.card-img{
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
-.card-content{
-    padding: 10px;
+.card-content {
+  padding: 10px;
 }
 
-.card-title{
-    text-align: center;
-    margin: 0;padding: 0;
+.card-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.contact-section{
+.contact-section {
   background-color: antiquewhite;
 }
 
-.contact-box{
-  max-width: 800px;
+.contact-content-box {
+  max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-box {
+  max-width: 500px;
   padding: 50px 0;
 }
 
-.form{
-  width: 400px;
+.form {
+  width: 500px;
 }
 
-.form-control{
+.form-control {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-
 }
 
-textarea.form-input{
+textarea.form-input {
   height: 100px;
 }
 
-.form-contact-btn{
+.form-contact-btn {
   background-color: blueviolet;
   color: aliceblue;
   padding: 5px 12px;
   font-size: 1rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(66, 76, 76);
+  color: #fff;
+}
+
+.footer-content-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer .about-us {
+  max-width: 300px;
+  text-align: justify;
+}
+
+.footer .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer .link {
+  color: #ffffff80;
+}
+
+.footer .link:hover {
+  color: #ffffff;
 }
