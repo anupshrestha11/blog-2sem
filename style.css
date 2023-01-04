@@ -152,3 +152,29 @@ textarea.form-input {
 .footer .link:hover {
   color: #ffffff;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .blog-section {
+    padding: 10px;
+  }
+  .card {
+    width: 80%;
+  }
+
+  .footer-content-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media print {
+  .header {
+    display: none;
+  }
+}
